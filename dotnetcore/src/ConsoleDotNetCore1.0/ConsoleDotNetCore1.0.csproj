@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>ConsoleDotNetCore1.0</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>ConsoleDotNetCore1.0</PackageId>
+    <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NoCommons" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>
