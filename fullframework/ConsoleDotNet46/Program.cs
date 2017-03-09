@@ -7,7 +7,8 @@ namespace ConsoleDotNet46
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("[net46] : Hi, this is a fodselsnr: " + FodselsnummerValidator.IsValid("25010218228"));			
-		}
+			Console.WriteLine("[net46] : Hi, this is a fodselsnr: " + FodselsnummerValidator.IsValid("25010218228"));
+            Console.ReadKey();
+        }
 	}
 }
